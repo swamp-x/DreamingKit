@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8070AFB819D4524C008CCB69 /* DreamingKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8070AFB719D4524C008CCB69 /* DreamingKit.h */; };
-		8070AFBA19D4524C008CCB69 /* DreamingKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8070AFB919D4524C008CCB69 /* DreamingKit.m */; };
+		8070AFD319D45370008CCB69 /* DreamingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8070AFD219D45370008CCB69 /* DreamingObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +17,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				8070AFB819D4524C008CCB69 /* DreamingKit.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,10 +24,11 @@
 
 /* Begin PBXFileReference section */
 		8070AFB419D4524C008CCB69 /* libDreamingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDreamingKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8070AFB719D4524C008CCB69 /* DreamingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DreamingKit.h; sourceTree = "<group>"; };
-		8070AFB919D4524C008CCB69 /* DreamingKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamingKit.m; sourceTree = "<group>"; };
 		8070AFBF19D4524D008CCB69 /* DreamingKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamingKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8070AFC219D4524D008CCB69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8070AFCB19D4529B008CCB69 /* DreamingKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DreamingKit.h; sourceTree = "<group>"; };
+		8070AFD119D45370008CCB69 /* DreamingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DreamingObject.h; sourceTree = "<group>"; };
+		8070AFD219D45370008CCB69 /* DreamingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DreamingObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +70,8 @@
 		8070AFB619D4524C008CCB69 /* DreamingKit */ = {
 			isa = PBXGroup;
 			children = (
-				8070AFB719D4524C008CCB69 /* DreamingKit.h */,
-				8070AFB919D4524C008CCB69 /* DreamingKit.m */,
+				8070AFCB19D4529B008CCB69 /* DreamingKit.h */,
+				8070AFD019D45370008CCB69 /* DreamingObject */,
 			);
 			path = DreamingKit;
 			sourceTree = "<group>";
@@ -91,6 +90,15 @@
 				8070AFC219D4524D008CCB69 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8070AFD019D45370008CCB69 /* DreamingObject */ = {
+			isa = PBXGroup;
+			children = (
+				8070AFD119D45370008CCB69 /* DreamingObject.h */,
+				8070AFD219D45370008CCB69 /* DreamingObject.m */,
+			);
+			path = DreamingObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +144,7 @@
 		8070AFAC19D4524C008CCB69 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Dreaming;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = swampx;
 				TargetAttributes = {
@@ -180,7 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8070AFBA19D4524C008CCB69 /* DreamingKit.m in Sources */,
+				8070AFD319D45370008CCB69 /* DreamingObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -261,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

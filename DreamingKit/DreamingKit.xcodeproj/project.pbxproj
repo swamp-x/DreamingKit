@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8070AFB819D4524C008CCB69 /* DreamingKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8070AFB719D4524C008CCB69 /* DreamingKit.h */; };
+		8070AFBA19D4524C008CCB69 /* DreamingKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8070AFB919D4524C008CCB69 /* DreamingKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8070AFB219D4524C008CCB69 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				8070AFB819D4524C008CCB69 /* DreamingKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8070AFB419D4524C008CCB69 /* libDreamingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDreamingKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8070AFB719D4524C008CCB69 /* DreamingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DreamingKit.h; sourceTree = "<group>"; };
+		8070AFB919D4524C008CCB69 /* DreamingKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamingKit.m; sourceTree = "<group>"; };
+		8070AFBF19D4524D008CCB69 /* DreamingKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamingKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8070AFC219D4524D008CCB69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8070AFB119D4524C008CCB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8070AFBC19D4524D008CCB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8070AFAB19D4524C008CCB69 = {
+			isa = PBXGroup;
+			children = (
+				8070AFB619D4524C008CCB69 /* DreamingKit */,
+				8070AFC019D4524D008CCB69 /* DreamingKitTests */,
+				8070AFB519D4524C008CCB69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8070AFB519D4524C008CCB69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8070AFB419D4524C008CCB69 /* libDreamingKit.a */,
+				8070AFBF19D4524D008CCB69 /* DreamingKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8070AFB619D4524C008CCB69 /* DreamingKit */ = {
+			isa = PBXGroup;
+			children = (
+				8070AFB719D4524C008CCB69 /* DreamingKit.h */,
+				8070AFB919D4524C008CCB69 /* DreamingKit.m */,
+			);
+			path = DreamingKit;
+			sourceTree = "<group>";
+		};
+		8070AFC019D4524D008CCB69 /* DreamingKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8070AFC119D4524D008CCB69 /* Supporting Files */,
+			);
+			path = DreamingKitTests;
+			sourceTree = "<group>";
+		};
+		8070AFC119D4524D008CCB69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8070AFC219D4524D008CCB69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8070AFB319D4524C008CCB69 /* DreamingKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8070AFC519D4524D008CCB69 /* Build configuration list for PBXNativeTarget "DreamingKit" */;
+			buildPhases = (
+				8070AFB019D4524C008CCB69 /* Sources */,
+				8070AFB119D4524C008CCB69 /* Frameworks */,
+				8070AFB219D4524C008CCB69 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamingKit;
+			productName = DreamingKit;
+			productReference = 8070AFB419D4524C008CCB69 /* libDreamingKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8070AFBE19D4524D008CCB69 /* DreamingKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8070AFC819D4524D008CCB69 /* Build configuration list for PBXNativeTarget "DreamingKitTests" */;
+			buildPhases = (
+				8070AFBB19D4524D008CCB69 /* Sources */,
+				8070AFBC19D4524D008CCB69 /* Frameworks */,
+				8070AFBD19D4524D008CCB69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamingKitTests;
+			productName = DreamingKitTests;
+			productReference = 8070AFBF19D4524D008CCB69 /* DreamingKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8070AFAC19D4524C008CCB69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = swampx;
+				TargetAttributes = {
+					8070AFB319D4524C008CCB69 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					8070AFBE19D4524D008CCB69 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 8070AFAF19D4524C008CCB69 /* Build configuration list for PBXProject "DreamingKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8070AFAB19D4524C008CCB69;
+			productRefGroup = 8070AFB519D4524C008CCB69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8070AFB319D4524C008CCB69 /* DreamingKit */,
+				8070AFBE19D4524D008CCB69 /* DreamingKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8070AFBD19D4524D008CCB69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8070AFB019D4524C008CCB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8070AFBA19D4524C008CCB69 /* DreamingKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8070AFBB19D4524D008CCB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8070AFC319D4524D008CCB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8070AFC419D4524D008CCB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8070AFC619D4524D008CCB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8070AFC719D4524D008CCB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8070AFC919D4524D008CCB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DreamingKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8070AFCA19D4524D008CCB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DreamingKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8070AFAF19D4524C008CCB69 /* Build configuration list for PBXProject "DreamingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8070AFC319D4524D008CCB69 /* Debug */,
+				8070AFC419D4524D008CCB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8070AFC519D4524D008CCB69 /* Build configuration list for PBXNativeTarget "DreamingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8070AFC619D4524D008CCB69 /* Debug */,
+				8070AFC719D4524D008CCB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8070AFC819D4524D008CCB69 /* Build configuration list for PBXNativeTarget "DreamingKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8070AFC919D4524D008CCB69 /* Debug */,
+				8070AFCA19D4524D008CCB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8070AFAC19D4524C008CCB69 /* Project object */;
+}

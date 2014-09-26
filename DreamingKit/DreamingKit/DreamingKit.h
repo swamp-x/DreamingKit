@@ -9,5 +9,6 @@
 #ifndef DreamingKit_DreamingKit_h
 #define DreamingKit_DreamingKit_h
 
+#import "DreamingObject.h"
 
 #endif
